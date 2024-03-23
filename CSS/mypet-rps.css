@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Chakra+Petch:ital,wght@0,500;1,300;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Kanadaka', system-ui;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+
+header {
+    background-color: #6C3E31;
+}
+
+nav {
+    /* background-color: olivedrab; */
+    display: flex;
+    width: 85%;
+    margin: auto;
+
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: lavenderblush;
+
+}
+
+nav ul li {
+    margin-left: 30px;
+    
+}
+
+/* ---------------- rps Menu---------------------- */
+@media screen and (max-width:480px) {
+    nav {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+}
+
+/* -----------------------hero-------------------------- */
+.hero {
+    background-image: url("https://images.unsplash.com/photo-1640879776845-3956cc8cf2f1?q=80&w=2074&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+
+    width: 100%;
+    height: 800px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.text-hero {
+    color: #ffffff;
+    text-align: center;
+
+    font-size: 70px;
+}
+
+/* -----------------social media------------------- */
+.social-media {
+    text-align: center;
+    background-color: rgb(235, 196, 116);
+    
+}
+
+.social-media img {
+    padding: 50px;
+    margin: 0px 100px;
+    border-radius: 50%;
+}
+
+/* ------------------rps social-media--------------------- */
+@media screen and (max-width:1050px) {
+    .social-box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        max-width: 100%;
+        margin: auto;
+
+    }
+    .social-media img {
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .social-box{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        max-width: 100%;
+        margin: auto;
+
+    }
+    .social-media img {
+        margin: auto;
+
+    }
+}
+
+@media screen and (max-width:480px) {
+    .social-box{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        max-width: 100%;
+        margin: auto;
+
+    }
+    .social-media{
+        padding: 20px;
+        margin: auto;
+    }
+}
+
+
+/* ----------------  mypet-content -------------- */
+
+.mypet-content {
+    display: grid;
+    /* grid-template-columns: 1fr, 1fr, 1fr; */
+    grid-template-columns: repeat(3,1fr);
+
+    max-width: 95%;
+    margin: auto;
+}
+
+.box {
+    /* background-color: palevioletred; */
+    margin: 30px 10px;
+    box-shadow: 0px 0px 3px 0px rgb(87, 0, 250);
+    border-radius: 10px;
+}
+
+.images {
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-content{
+    padding: 10px;
+}
+
+/* -------------------- rps pet-content ---------------------- */
+@media screen and (max-width:768px) {
+    .mypet-content {
+        display: grid;
+        
+        grid-template-columns: repeat(2,1fr);
+    
+        max-width: 95%;
+        margin: auto;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .mypet-content {
+        display: grid;
+        
+        grid-template-columns: repeat(1,1fr);
+    
+        max-width: 95%;
+        margin: auto;
+    }
+
+}
+
+/*---------------------------- Start Footer -------------------------*/
+footer {
+    background-color: #6C3E31;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+/*---------------------------- End Footer ----------------------------*/
+
+.button{
+    background-color: rgb(197, 136, 23);
+    color: rgb(225, 190, 133);
+    padding: 8px 16px;
+    border-radius: 30px;
+    margin: 10px;
+    display: inline-block;
+    }

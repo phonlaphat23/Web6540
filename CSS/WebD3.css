@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Kanadaka', system-ui;
+    font-family: 'Chakra Petch', sans-serif;
+    /* background-color:royalblue; */
+}
+
+/* ---------------------------------Start Header----------------------------------------- */
+
+
+header {
+    background-color: #884A39;
+}
+
+nav {
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1100px;
+    height: 42px;
+
+    margin: auto;
+
+    /* background-color: aquamarine; */
+}
+
+.logo {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    text-transform: capitalize;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+/* ------------------------------- Start Hero Section ------------------------------------ */
+
+.hero {
+    display: flex;
+    width: 1100px;
+    margin: auto;
+
+    justify-content: space-between;
+    align-items: center;
+
+    /* background-color: antiquewhite; */
+}
+
+.hero-text--box {
+    color: #ffffff;
+    /* background-color: aquamarine; */
+}
+
+.hero-button {
+    display: flex;
+    /* background-color: beige; */
+}
+
+
+.hero-bt-getStart {
+    background-color: #C38154;
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-right: 30px;
+
+}
+
+.hero-bt--watch {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    /* background-color: coral; */
+}
+
+.hero-image {
+
+}
+
+.Pricing {
+    /* background-color: black; */
+    /* align-items: center; */
+    color: #000000;
+    margin: auto;
+    width: 1100px;
+
+}
+.Pricing-1 {
+    /* align-items: center; */
+    margin-left: 450px;
+    /* background-color: aqua; */
+    text-transform: uppercase;
+    
+}
+.Pricing-box {
+    display: flex;
+    /* background-color: rgb(0, 255, 21); */
+    justify-content: space-between;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+.Pricing-box1 {
+    /* background-color: black; */
+    background-color: #ffffff;
+    margin-left: 50px;
+    box-shadow: 0px 0px 8px 2px rgb(230, 210, 173);
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+    align-items: center;
+    
+}
+.Pricing-box2 {
+    /* background-color: black; */
+    background-color: #ffffff;
+    box-shadow: 0px 0px 8px 2px rgb(230, 210, 173);
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+.Pricing-box3 {
+    /* background-color: black; */
+    background-color: #ffffff;
+    margin-right: 50px;
+    box-shadow: 0px 0px 8px 2px rgb(230, 210, 173);
+    width: 300px;
+    height: 400px;
+    padding: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    list-style: none;
+    font-size: small;
+}
+.text-h1 {
+    color: #6C3E31;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.text-param {
+    color: #000000;
+    text-align: center;
+}
+
+
+/* -------------------------Start members Section --------------------------- */
+
+.member {
+    background-color: #c68216;
+    padding: 40px;
+}
+
+.member-box {
+    width: 1100px;
+    background-color: #fafafa;
+    margin: auto;
+
+    box-shadow: 0px 0px 5px 0.5px #888888;
+    border-radius: 5px;
+    padding: 1px 40px 40px;
+}
+
+table {
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+
+    margin: auto;
+}
+
+th, td {
+    border: 1px solid black;
+}
+
+th {
+
+}
+
+td {
+
+}
+.Contact-box{
+    width: 1100px;
+    /* color: #3002fc; */
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+.Name{
+    margin-right: 430px;
+}
+
+.Mail{
+    margin-right: 420px;
+}
+
+.SUBJECT{
+    margin-right: 940px;
+}
+
+.MESSAGE{
+    margin-right: 940px;
+}
+
+.Name2{
+    margin: auto; 
+   width: 500px;  
+   background-color: #e2c058;  
+}
+
+.Email{
+   margin: auto; 
+   width: 500px;  
+   background-color: #e2c058; 
+}
+
+.Subject{
+   margin: auto; 
+   width: 1005px;  
+   background-color: #e2c058; 
+}
+
+.Address{
+   margin: auto; 
+   width: 1005px;  
+   background-color: #e2c058; 
+   padding: 5%;
+}
+
+.Send Message{
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+}
+
+.submit{
+    
+    border-radius: 40px;
+    padding: 10px;
+    margin: 30px;
+    width: 300px;
+    margin-left: 50Px;
+    
+}
+
+
+/*---------------------------- Start Footer -------------------------*/
+footer {
+    background-color: #b28121;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+}
+/*---------------------------- End Footer ----------------------------*/
+
+.button {
+    background-color: rgb(162, 127, 38);
+    padding: 8px 20px;
+    border-radius: 30px;
+    margin-left: 10px;
+    display: inline-block;
+}
